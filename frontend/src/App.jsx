@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL =`${import.meta.env.VITE_API_URL}/api/products/`;
+const API_URL =`${import.meta.env.VITE_API_URL}/products/`;
 
 const EMPTY_FORM = {
   name: "",
